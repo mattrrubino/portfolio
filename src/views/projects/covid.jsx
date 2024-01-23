@@ -1,5 +1,5 @@
-import CenterContainer from "../../../components/container/CenterContainer";
-import ContainerList from "../../../components/container/ContainerList";
+import CenterContainer from "../../components/container/CenterContainer";
+import ContainerList from "../../components/container/ContainerList";
 
 export default function COVID() {
   return (

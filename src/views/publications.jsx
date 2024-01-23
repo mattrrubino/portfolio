@@ -1,7 +1,7 @@
-import ContainerList from "../../components/container/ContainerList";
-import PublicationContainer from "../../components/container/PublicationContainer";
-import TitleContainer from "../../components/container/TitleContainer";
-import useAppear from "../../hooks/useAppear";
+import ContainerList from "../components/container/ContainerList";
+import PublicationContainer from "../components/container/PublicationContainer";
+import TitleContainer from "../components/container/TitleContainer";
+import useAppear from "../hooks/useAppear";
 
 export default function Publications() {
   return (

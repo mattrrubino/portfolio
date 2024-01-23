@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 
+// This hook uses the embedded YouTube player JS API to automatically pause videos
+// when they go offscreen. It may need to be updated if the JS API changes.
 export default function usePause() {
   const ref = useRef(undefined);
 
@@ -8,7 +10,7 @@ export default function usePause() {
 
     const obs = new IntersectionObserver(([entry]) => {
       if (!entry.isIntersecting) {
-        entry.target.contentWindow.postMessage(`{"event":"command", "func":"pauseVideo", "args":""}`, "*");
+        entry?.target?.contentWindow?.postMessage(`{"event":"command", "func":"pauseVideo", "args":""}`, "*");
       }
     });
 

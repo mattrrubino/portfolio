@@ -1,7 +1,7 @@
-import ProjectContainer from "../../components/container/ProjectContainer";
-import ContainerList from "../../components/container/ContainerList";
-import useAppear from "../../hooks/useAppear";
-import TitleContainer from "../../components/container/TitleContainer";
+import ProjectContainer from "../components/container/ProjectContainer";
+import ContainerList from "../components/container/ContainerList";
+import useAppear from "../hooks/useAppear";
+import TitleContainer from "../components/container/TitleContainer";
 
 export default function Hackathons() {
   return (
@@ -9,7 +9,7 @@ export default function Hackathons() {
       <TitleContainer
         innerRef={useAppear()}
         title="Hackathons"
-        desc="Hackathons are my favorite place to<br/>explore something less familiar, such<br/>as computer hardware."
+        desc="Hackathons are my favorite place to<br/>explore something unfamiliar, such<br/>as computer hardware."
       />
       <ProjectContainer
         innerRef={useAppear()}

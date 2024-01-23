@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <ContainerList>
       <CenterContainer innerRef={useAppear()}>
-        <div className="flex space-x-16 justify-center">
+        <div className="flex flex-col space-y-16 justify-center items-center lg:flex-row lg:space-x-16 lg:space-y-0">
           <div className="flex flex-col">
               <div className="w-fit">
                 <h2 className="text-6xl text-right">Hello, I&apos;m</h2>
@@ -24,11 +24,11 @@ export default function Home() {
       </CenterContainer>
 
       <CenterContainer innerRef={useAppear()}>
-        <div className="flex flex-col space-y-8 text-3xl">
-          <h2 className="text-6xl text-center">About Me</h2>
-          <div className="flex flex-col space-y-4">
+        <div className="flex flex-col items-center space-y-8 text-2xl md:text-3xl">
+          <h2 className="text-6xl">About Me</h2>
+          <div className="w-11/12 flex flex-col space-y-4 leading-none lg:w-4/5 2xl:w-2/3">
             <span>I graduated from <b>University at Buffalo</b> in 2023, with a <b>BS in computer science</b>.</span>
-            <span className="leading-none">I am experienced in a diverse array of software development technologies. Much<br/>of this experience was gained through my contributions to <b>interdisciplinary projects</b>.</span>
+            <span>I am experienced in a diverse array of software development technologies. Much of this experience was gained through my contributions to <b>interdisciplinary projects</b>.</span>
             <span>I value <b>efficiency</b>, <b>pragmatism</b>, and <b>integrity</b>. This guides my work and life.</span>
           </div>
         </div>

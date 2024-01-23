@@ -7,20 +7,20 @@ export default function PublicationContainer({ innerRef, title, location, type, 
 
   return (
     <Container>
-      <div ref={innerRef} className="h-full flex flex-col p-8 text-6xl">
+      <div ref={innerRef} className="h-full flex flex-col p-8 text-2xl md:text-4xl lg:text-5xl">
         <h1 className="font-bold">{title}</h1>
         <div className="flex justify-between items-baseline">
           <h2>{location}</h2>
           <h2>{type}</h2>
         </div>
         <div className="flex-1 flex flex-col">
-          <div className="mt-4 text-4xl flex flex-col leading-none">
+          <div className="mt-4 text-2xl lg:text-4xl flex flex-col">
             <span className="font-bold">Authors</span>
-            <span>{authors.join(", ")}</span>
+            <span className="leading-none">{authors.join(", ")}</span>
           </div>
-          <div className="mt-4 text-2xl flex flex-col leading-none">
+          <div className="mt-4 text-xl lg:text-2xl flex flex-col">
             <span className="font-bold">Abstract</span>
-            <div>{abstract}</div>
+            <div className="leading-none">{abstract}</div>
           </div>
         </div>
         <div className="text-4xl text-center">
@@ -36,7 +36,7 @@ PublicationContainer.propTypes = {
   title: PropTypes.string.isRequired,
   location: PropTypes.string,
   type: PropTypes.string,
-  authors: PropTypes.oneOf([
+  authors: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.arrayOf(PropTypes.string),
   ]),

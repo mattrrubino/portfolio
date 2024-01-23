@@ -1,5 +1,7 @@
 import { useEffect, useRef } from "react";
 
+// This hook causes a DOM element to fade in when it enters the viewport.
+// It returns a ref which should be passed to the target DOM element.
 export default function useAppear() {
   const ref = useRef(undefined);
 
