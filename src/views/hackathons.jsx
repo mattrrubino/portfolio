@@ -14,7 +14,7 @@ export default function Hackathons() {
       <ProjectContainer
         innerRef={useAppear()}
         proj="Red Alert" 
-        venue="UB Hacking 2020"
+        venue="UB Hacking '20"
         desc={[
           "We built a <b>low-cost smart smoke detector system</b> for automatic detection and notification of fire.",
           "I wrote the Arduino software in <b>C++</b> and used <b>Python</b> to send text notifications with Twilio API.",
@@ -32,7 +32,7 @@ export default function Hackathons() {
       <ProjectContainer
         innerRef={useAppear()}
         proj="Code Green" 
-        venue="UB Hacking Fall 2022"
+        venue="UB Hacking Fall '22"
         desc={[
           "We created <b>PET printer filament</b> from a water bottle.",
           "I programmed an ESP32-CAM using <b>C++</b> to create a livestream of the printing process.",
@@ -50,8 +50,8 @@ export default function Hackathons() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Big Transistor Security" 
-        venue="UB Hacking Spring 2022"
+        proj="Security System" 
+        venue="UB Hacking Spring '22"
         desc={[
           "We built a modular <b>dorm security system</b> for automatic detection and notification of intrusion.",
           "I wrote the Arduino software in <b>C++</b> and implemented the mobile application using <b>Flutter</b>.",
