@@ -10,10 +10,10 @@ export default {
         grotesque: ['"Darker Grotesque"', "sans-serif"],
       },
       backgroundColor: {
-        accent: "#FF6060",
+        accent: "#EE0000",
       },
       textColor: {
-        accent: "#FF6060",
+        accent: "#EE0000",
       },
       keyframes: {
         appear: {

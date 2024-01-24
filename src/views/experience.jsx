@@ -23,16 +23,16 @@ export default function Experience() {
           "I learned how to <b>collaborate</b> effectively with people who have different knowledge and experience.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/scikit-learn.svg",
-          "https://icon.icepanel.io/Technology/svg/AWS.svg",
-          "https://icon.icepanel.io/Technology/svg/React.svg",
-          "https://icon.icepanel.io/Technology/svg/Flutter.svg",
-          "https://icon.icepanel.io/Technology/svg/Firebase.svg",
-          "https://icon.icepanel.io/Technology/svg/Unity.svg",
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
-          "https://icon.icepanel.io/Technology/svg/GitHub.svg",
-          "https://images.ctfassets.net/nrgyaltdicpt/h9dpHuVys19B1sOAWvbP6/5f8d4c6d051f63e4ba450befd56f9189/ologo_square_colour_light_bg.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/scikit-learn.svg", alt: "Scikit-learn Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/AWS.svg", alt: "AWS Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/React.svg", alt: "React Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Flutter.svg", alt: "Flutter Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Firebase.svg", alt: "Firebase Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Unity.svg", alt: "Unity Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
+          { src: "https://images.ctfassets.net/nrgyaltdicpt/h9dpHuVys19B1sOAWvbP6/5f8d4c6d051f63e4ba450befd56f9189/ologo_square_colour_light_bg.svg", alt: "Overleaf Icon" },
         ]}
         link="https://cse.buffalo.edu/~wenyaoxu/esc.html"
       />
@@ -48,13 +48,13 @@ export default function Experience() {
           "I learned about the complex world of <b>payment processing</b> and experienced software engineering in the <b>corporate environment</b>.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
-          "https://icon.icepanel.io/Technology/svg/XML.svg",
-          "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
-          "https://icon.icepanel.io/Technology/svg/Linux.svg",
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
-          "https://icon.icepanel.io/Technology/svg/GitHub.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/JavaScript.svg", alt: "JavaScript Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/XML.svg", alt: "XML Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg", alt: "PostgreSQL Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Linux.svg", alt: "Linux Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
         ]}
         link="https://www.odoo.com/page/about-us"
       />
@@ -70,13 +70,13 @@ export default function Experience() {
           "I learned about the value of <b>crowdsourcing</b> as a means of conducting scientific research.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/Django.svg",
-          "https://icon.icepanel.io/Technology/svg/SQLite.svg",
-          "https://www.svgrepo.com/show/354472/twilio-icon.svg",
-          "https://icon.icepanel.io/Technology/svg/Linux.svg",
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
-          "https://icon.icepanel.io/Technology/svg/GitHub.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Django.svg", alt: "Django Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/SQLite.svg", alt: "SQLite Icon" },
+          { src: "https://www.svgrepo.com/show/354472/twilio-icon.svg", alt: "Twilio Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Linux.svg", alt: "Linux Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
         ]}
         link="http://www.crowdhydrology.com"
       />

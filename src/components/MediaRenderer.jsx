@@ -2,7 +2,7 @@ import { PropTypes } from "prop-types";
 import { useLayoutEffect } from "react";
 import usePause from "../hooks/usePause";
 
-export default function MediaRenderer({ media }) {
+export default function MediaRenderer({ media: { src, alt }}) {
   const ref = usePause();
 
   // Numerator and denominator for the target aspect ratio.
@@ -53,12 +53,12 @@ export default function MediaRenderer({ media }) {
   }, [ref]);
 
   return (
-    media.includes("youtube.com")
-    ? <iframe ref={ref} src={media+"?enablejsapi=1"} allowFullScreen />
-    : <img ref={ref} src={media} />
+    src.includes("youtube.com")
+    ? <iframe ref={ref} src={src+"?enablejsapi=1"} title={alt} allowFullScreen />
+    : <img ref={ref} src={src} alt={alt} />
   )
 }
 
 MediaRenderer.propTypes = {
-  media: PropTypes.string.isRequired,
+  media: PropTypes.object.isRequired,
 };

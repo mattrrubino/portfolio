@@ -18,7 +18,7 @@ export default function Home() {
                 I apply <b>software engineering</b><br/>and <b>machine learning</b> to solve<br/>problems across disciplines.
               </p>
           </div>
-          <img className="grayscale h-48 w-48 lg:h-64 lg:w-64" src="/profile.jpg" />
+          <img alt="Headshot of Matthew Rubino" className="grayscale h-48 w-48 lg:h-64 lg:w-64" src="/profile.jpg" />
         </div>
         <ArrowDown />
       </CenterContainer>

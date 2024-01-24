@@ -21,7 +21,7 @@ export default function ExperienceContainer({ innerRef, org, loc, role, dates, d
           {link ? <button className="p-2 my-2 w-fit bg-accent" onClick={() => navigate(link)}>Learn More</button> : <div className="my-10"></div>}
         </div>
         <div className="flex flex-wrap text-4xl justify-center">
-          {tech.map((src, i) => <img key={i} src={src} className="w-12 h-12 mx-2" />)}
+          {tech.map(({src, alt}, i) => <img key={i} alt={alt} src={src} className="w-12 h-12 mx-2" />)}
         </div>
       </div>
     </Container>
@@ -35,6 +35,6 @@ ExperienceContainer.propTypes = {
   role: PropTypes.string.isRequired,
   dates: PropTypes.string.isRequired,
   desc: PropTypes.arrayOf(PropTypes.string).isRequired,
-  tech: PropTypes.arrayOf(PropTypes.string),
+  tech: PropTypes.arrayOf(PropTypes.object),
   link: PropTypes.string,
 };

@@ -21,13 +21,13 @@ export default function Hackathons() {
           "We placed <b>first overall</b> out of 90 competing teams.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
-          "https://icon.icepanel.io/Technology/svg/Arduino.svg",
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://www.svgrepo.com/show/354472/twilio-icon.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg", alt: "C++ Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Arduino.svg", alt: "Arduino Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://www.svgrepo.com/show/354472/twilio-icon.svg", alt: "Twilio Icon" },
         ]}
         link="https://devpost.com/software/red-alert"
-        media="https://www.youtube.com/embed/z4QZwApVT2w"
+        media={{ src: "https://www.youtube.com/embed/z4QZwApVT2w", alt: "Demo video of Red Alert" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -39,14 +39,14 @@ export default function Hackathons() {
           "We won <b>hack with a purpose</b> and <b>best hardware hack</b>.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
-          "https://icon.icepanel.io/Technology/svg/Go.svg",
-          "https://icon.icepanel.io/Technology/svg/HTML5.svg",
-          "https://icon.icepanel.io/Technology/svg/CSS3.svg",
-          "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg", alt: "C++ Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Go.svg", alt: "Go Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/HTML5.svg", alt: "HTML Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/CSS3.svg", alt: "CSS Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/JavaScript.svg", alt: "JavaScript Icon" },
         ]}
         link="https://devpost.com/software/code-green-smv8bi"
-        media="https://www.youtube.com/embed/EBYXnl_esCo"
+        media={{ src: "https://www.youtube.com/embed/EBYXnl_esCo", alt: "Demo video of Code Green" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -58,14 +58,14 @@ export default function Hackathons() {
           "We won <b>best hardware hack</b>.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg",
-          "https://icon.icepanel.io/Technology/svg/Arduino.svg",
-          "https://icon.icepanel.io/Technology/svg/Dart.svg",
-          "https://icon.icepanel.io/Technology/svg/Flutter.svg",
-          "https://icon.icepanel.io/Technology/svg/Firebase.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/C%2B%2B-%28CPlusPlus%29.svg", alt: "C++ Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Arduino.svg", alt: "Arduino Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Dart.svg", alt: "Dart Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Flutter.svg", alt: "Flutter Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Firebase.svg", alt: "Firebase Icon" },
         ]}
         link="https://devpost.com/software/big-transistor-security"
-        media="https://www.youtube.com/embed/ArLAnyjUF98"
+        media={{ src: "https://www.youtube.com/embed/ArLAnyjUF98", alt: "Demo video of Security System" }}
       />
     </ContainerList>
   )

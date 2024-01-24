@@ -21,17 +21,17 @@ export default function Projects() {
           "The app is being used in an ongoing study to determine the <b>efficacy</b> of this form of treatment.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Dart.svg",
-          "https://icon.icepanel.io/Technology/svg/Flutter.svg",
-          "https://icon.icepanel.io/Technology/svg/Firebase.svg",
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
-          "https://icon.icepanel.io/Technology/svg/GraphQL.svg",
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
-          "https://icon.icepanel.io/Technology/svg/GitHub.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Dart.svg", alt: "Dart Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Flutter.svg", alt: "Flutter Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Firebase.svg", alt: "Firebase Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/JavaScript.svg", alt: "JavaScript Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GraphQL.svg", alt: "GraphQL Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
         ]}
         link="https://apps.apple.com/no/app/mellowing-mind-community/id1565271649"
-        media="https://www.youtube.com/embed/fHGecJ8MMI0"
+        media={{ src: "https://www.youtube.com/embed/fHGecJ8MMI0", alt: "Demo video of Mellowing Mind" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -43,18 +43,18 @@ export default function Projects() {
           "Our project won <b>first place</b> in the Agrusa CSE Student Innovation Competition 2022.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/AWS.svg",
-          "https://www.vectorlogo.zone/logos/onnxai/onnxai-icon.svg",
-          "https://icon.icepanel.io/Technology/svg/NGINX.svg",
-          "https://icon.icepanel.io/Technology/svg/React.svg",
-          "https://icon.icepanel.io/Technology/svg/Sass.svg",
-          "https://icon.icepanel.io/Technology/svg/Three.js.svg",
-          "https://icon.icepanel.io/Technology/svg/Git.svg",
-          "https://icon.icepanel.io/Technology/svg/GitHub.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/AWS.svg", alt: "AWS Icon" },
+          { src: "https://www.vectorlogo.zone/logos/onnxai/onnxai-icon.svg", alt: "ONNX Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/NGINX.svg", alt: "NGINX Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/React.svg", alt: "React Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Sass.svg", alt: "Sass Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Three.js.svg", alt: "Three.js Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
         ]}
         link="https://stream-digitaltwin.com"
-        media="https://www.youtube.com/embed/6j6RJ27Ho7A"
+        media={{ src: "https://www.youtube.com/embed/6j6RJ27Ho7A", alt: "Demo video of STREAM" }}
       />
       {/* TODO: SLI Screener */}
       <ProjectContainer
@@ -67,14 +67,14 @@ export default function Projects() {
           "We added support for the Leap Motion Controller to <b>improve drawing throughput</b>.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/Flask.svg",
-          "https://icon.icepanel.io/Technology/svg/PyTorch.svg",
-          "https://icon.icepanel.io/Technology/svg/React.svg",
-          "https://icon.icepanel.io/Technology/svg/HTML5.svg",
-          "https://icon.icepanel.io/Technology/svg/CSS3.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Flask.svg", alt: "Flask Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/PyTorch.svg", alt: "PyTorch Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/React.svg", alt: "React Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/HTML5.svg", alt: "HTML Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/CSS3.svg", alt: "CSS Icon" },
         ]}
-        media="https://www.youtube.com/embed/8U6y9d0Ua3w"
+        media={{ src: "https://www.youtube.com/embed/8U6y9d0Ua3w", alt: "Demo video of Magic Painting Board" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -86,13 +86,13 @@ export default function Projects() {
           "I added support for <b>realtime interaction</b> with a physical 3D printer using WebSockets.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Unity.svg",
-          "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg",
-          "https://icon.icepanel.io/Technology/svg/.NET.svg",
-          "https://www.svgrepo.com/show/306497/oculus.svg",
-          "https://icon.icepanel.io/Technology/svg/Blender.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Unity.svg", alt: "Unity Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg", alt: "C# Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/.NET.svg", alt: ".NET Icon" },
+          { src: "https://www.svgrepo.com/show/306497/oculus.svg", alt: "Oculus Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Blender.svg", alt: "Blender Icon" },
         ]}
-        media="https://www.youtube.com/embed/_icf84A7Ce4"
+        media={{ src: "https://www.youtube.com/embed/_icf84A7Ce4", alt: "Demo video of Manufacturing Metaverse" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -104,15 +104,15 @@ export default function Projects() {
           "I visualized data for individual states using <b>GeoJSON</b>."
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
-          "https://icon.icepanel.io/Technology/svg/D3.js.svg",
-          "https://icon.icepanel.io/Technology/svg/CSS3.svg",
-          "https://icon.icepanel.io/Technology/svg/JSON.svg",
-          "https://icon.icepanel.io/Technology/svg/Webpack.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/JavaScript.svg", alt: "JavaScript Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/D3.js.svg", alt: "D3.js Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/CSS3.svg", alt: "CSS Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/JSON.svg", alt: "JSON Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Webpack.svg", alt: "Webpack Icon" },
         ]}
         link="/projects/covid"
         desktop={true}
-        media="/covid.png"
+        media={{ src: "/covid.png", alt: "Screenshot from COVID Visualization" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -124,15 +124,15 @@ export default function Projects() {
           "I deployed our project to <b>Digital Ocean</b> using <b>Docker</b>, <b>NGINX</b>, and <b>MongoDB</b>."
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Python.svg",
-          "https://icon.icepanel.io/Technology/svg/FastAPI.svg",
-          "https://icon.icepanel.io/Technology/svg/Digital-Ocean.svg",
-          "https://icon.icepanel.io/Technology/svg/Docker.svg",
-          "https://icon.icepanel.io/Technology/svg/NGINX.svg",
-          "https://icon.icepanel.io/Technology/svg/MongoDB.svg",
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/FastAPI.svg", alt: "FastAPI Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Digital-Ocean.svg", alt: "Digital Ocean Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Docker.svg", alt: "Docker Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/NGINX.svg", alt: "NGINX Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/MongoDB.svg", alt: "MongoDB Icon" },
         ]}
         link="https://github.com/mattrrubino/rps15"
-        media="/rps.png"
+        media={{ src: "/rps.png", alt: "Screenshot from RPS15" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -144,15 +144,15 @@ export default function Projects() {
           "I made all the game assets, including the <b>artwork</b> and <b>music</b>.",
         ]}
         tech={[
-          "https://icon.icepanel.io/Technology/svg/Unity.svg",
-          "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg",
-          "https://icon.icepanel.io/Technology/svg/.NET.svg",
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png",
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Musescore_icon.svg/600px-Musescore_icon.svg.png?20210515114412",
+          { src: "https://icon.icepanel.io/Technology/svg/Unity.svg", alt: "Unity Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg", alt: "C# Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/.NET.svg", alt: ".NET Icon" },
+          { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Adobe_Photoshop_CC_icon.svg/512px-Adobe_Photoshop_CC_icon.svg.png", alt: "Photoshop Icon" },
+          { src: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Musescore_icon.svg/600px-Musescore_icon.svg.png?20210515114412", alt: "Musescore Icon" },
         ]}
         link="/projects/christmas"
         desktop={true}
-        media="/christmas.png"
+        media={{ src: "/christmas.png", alt: "Screenshot from Ho-Ho-Ho Down" }}
       />
     </ContainerList>
   )

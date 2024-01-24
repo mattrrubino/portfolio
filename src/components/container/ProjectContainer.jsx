@@ -23,7 +23,7 @@ export default function ProjectContainer({ innerRef, proj, venue, desc, tech, li
           </div>
         </div>
         <div className="flex flex-wrap text-4xl justify-center">
-          {tech.map((src, i) => <img key={i} src={src} className="w-12 h-12 mx-2" />)}
+          {tech.map(({src, alt}, i) => <img key={i} alt={alt} src={src} className="w-12 h-12 mx-2" />)}
         </div>
       </div>
     </Container>
@@ -35,11 +35,8 @@ ProjectContainer.propTypes = {
   proj: PropTypes.string.isRequired,
   venue: PropTypes.string.isRequired,
   desc: PropTypes.arrayOf(PropTypes.string).isRequired,
-  tech: PropTypes.arrayOf(PropTypes.string),
+  tech: PropTypes.arrayOf(PropTypes.object),
   link: PropTypes.string,
   desktop: PropTypes.bool,
-  media: PropTypes.oneOfType([
-    PropTypes.string,
-    PropTypes.arrayOf(PropTypes.string),
-  ]),
+  media: PropTypes.object,
 };
