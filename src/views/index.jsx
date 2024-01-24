@@ -32,6 +32,7 @@ export default function Home() {
             <span>I value <b>efficiency</b>, <b>pragmatism</b>, and <b>integrity</b>. This guides my work and life.</span>
           </div>
         </div>
+        <ArrowDown />
       </CenterContainer>
 
       <CenterContainer innerRef={useAppear()}>
