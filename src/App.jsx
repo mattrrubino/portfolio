@@ -21,7 +21,14 @@ export default function App() {
   return (
     <div className="w-full h-full overflow-x-clip font-grotesque text-xl">
       <BrowserRouter>
-        <Header />
+        <Header
+          paths={[
+            { name: "Experience", path: "/experience" },
+            { name: "Publications", path: "/publications" },
+            { name: "Projects", path: "/projects" },
+            { name: "Hackathons", path: "/hackathons" },
+          ]}
+        />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
