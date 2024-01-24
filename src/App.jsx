@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./views";
 import Experience from "./views/experience";
 import Publications from "./views/publications";
@@ -29,6 +30,7 @@ export default function App() {
             { name: "Hackathons", path: "/hackathons" },
           ]}
         />
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/experience" element={<Experience />} />
