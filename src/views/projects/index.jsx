@@ -96,6 +96,26 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
+        proj="Pokémix"
+        venue="Personal Project"
+        desc={[
+          "I created a <b>deep learning model</b> for interpolating 2D sprites.",
+          "I built and trained the model using <b>Python</b> and <b>TensorFlow</b>.",
+          "I created a web interface for the model using <b>React</b>, <b>Tailwind</b>, and <b>TensorFlow.js</b>.",
+        ]}
+        tech={[
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/TensorFlow.svg", alt: "TensorFlow Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/JavaScript.svg", alt: "JavaScript Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/React.svg", alt: "React Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg", alt: "Tailwind CSS Icon" },
+        ]}
+        link="/projects/pokemix"
+        desktop={true}
+        media={{ src: "/pokemix.gif", alt: "GIF from Pokémix" }}
+      />
+      <ProjectContainer
+        innerRef={useAppear()}
         proj="COVID Visualization" 
         venue="Personal Project"
         desc={[

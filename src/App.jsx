@@ -8,6 +8,7 @@ import Projects from "./views/projects";
 import COVID from "./views/projects/covid";
 import Christmas from "./views/projects/christmas";
 import Hackathons from "./views/hackathons";
+import Pokemix from "./views/projects/pokemix";
 
 // Potential future improvements:
 //  - Page anchors
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/experience" element={<Experience />} />
           <Route path="/publications" element={<Publications />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/projects/pokemix" element={<Pokemix />} />
           <Route path="/projects/covid" element={<COVID />} />
           <Route path="/projects/christmas" element={<Christmas />} />
           <Route path="/hackathons" element={<Hackathons />} />
