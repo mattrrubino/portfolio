@@ -24,7 +24,7 @@ export default function PublicationContainer({ innerRef, title, location, type, 
           </div>
         </div>
         <div className="text-xl sm:text-4xl text-center">
-          {link ? <button className="p-2 my-2 w-fit bg-accent" onClick={() => navigate(link)}>Link</button> : <div className="my-10"></div>}
+          <button className="p-2 my-2 w-fit bg-accent" disabled={!link} onClick={() => navigate(link)}>{link ? "Link" : "Publication in Progress"}</button>
         </div>
       </div>
     </Container>
