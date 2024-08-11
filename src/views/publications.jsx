@@ -12,6 +12,7 @@ export default function Publications() {
         desc="I am interested in machine learning<br/>research, particularly with applications<br/>to healthcare and manufacturing."
       />
       <PublicationContainer
+        id="mdd"
         innerRef={useAppear()}
         title="A Mispronunciation-Based Voice-Omics Representation Framework for Screening Speech and Language Impairments in Children"
         authors={[
@@ -38,6 +39,7 @@ export default function Publications() {
         `}
       />
       <PublicationContainer
+        id="twin"
         innerRef={useAppear()}
         title="A Campus Prototype of Interactive Digital Twin in Cyber Manufacturing"
         location="ACM SenSys 2022"

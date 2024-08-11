@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import ScrollToTop from "./components/ScrollToTop";
@@ -11,7 +12,6 @@ import Hackathons from "./views/hackathons";
 import Pokemix from "./views/projects/pokemix";
 
 // Potential future improvements:
-//  - Page anchors
 //  - Scroll restoration
 //  - Smooth scrolling
 //  - Game backends
@@ -20,6 +20,15 @@ import Pokemix from "./views/projects/pokemix";
 //  - TypeScript
 
 export default function App() {
+  // Page anchors do not always work in Chrome since they
+  // are added to the DOM at runtime. This fixes the issue.
+  useEffect(() => {
+    if (location.hash) {
+      const el = document.querySelector(location.hash);
+      el?.scrollIntoView({ behavior: "smooth" });
+    }
+  }, []);
+
   return (
     <div className="w-full h-full overflow-x-clip font-grotesque text-xl">
       <BrowserRouter>

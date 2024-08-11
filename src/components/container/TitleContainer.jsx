@@ -2,12 +2,12 @@ import { PropTypes } from "prop-types";
 import CenterContainer from "./CenterContainer";
 import ArrowDown from "../ArrowDown";
 
-export default function TitleContainer({ innerRef, title, desc }) {
+export default function TitleContainer({ id, innerRef, title, desc }) {
   return (
-    <CenterContainer innerRef={innerRef}>
+    <CenterContainer id={id ? id : "home"} innerRef={innerRef}>
       <div className="flex flex-col w-fit items-center">
         <h1 className="text-6xl sm:text-8xl lg:text-9xl font-bold text-accent text-center">{title}</h1>
-        <h2 className="text-lg sm:text-4xl lg:text-6xl leading-none" dangerouslySetInnerHTML={{ __html: desc}} />
+        <h2 className="text-lg sm:text-4xl lg:text-6xl leading-none" dangerouslySetInnerHTML={{ __html: desc }} />
       </div>
       <ArrowDown />
     </CenterContainer>
@@ -15,6 +15,7 @@ export default function TitleContainer({ innerRef, title, desc }) {
 }
 
 TitleContainer.propTypes = {
+  id: PropTypes.string,
   innerRef: PropTypes.object,
   title: PropTypes.string.isRequired,
   desc: PropTypes.string,

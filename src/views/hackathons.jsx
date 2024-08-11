@@ -13,7 +13,7 @@ export default function Hackathons() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Red Alert" 
+        proj="Red Alert"
         venue="UB Hacking '20"
         desc={[
           "We built a <b>low-cost smart smoke detector system</b> for automatic detection and notification of fire.",
@@ -31,7 +31,7 @@ export default function Hackathons() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Code Green" 
+        proj="Code Green"
         venue="UB Hacking Fall '22"
         desc={[
           "We created <b>PET printer filament</b> from a water bottle.",
@@ -50,7 +50,7 @@ export default function Hackathons() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Security System" 
+        proj="Security System"
         venue="UB Hacking Spring '22"
         desc={[
           "We built a modular <b>dorm security system</b> for automatic detection and notification of intrusion.",

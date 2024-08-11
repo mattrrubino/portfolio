@@ -9,11 +9,11 @@ export default function Projects() {
       <TitleContainer
         innerRef={useAppear()}
         title="Projects"
-        desc="I enjoy building  projects to learn<br/>new technical skills."
+        desc="I enjoy building projects to learn<br/>new technical skills."
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Mellowing Mind" 
+        proj="Mellowing Mind"
         venue="School of Nursing"
         desc={[
           "We created a <b>mindfulness practice app</b> to help treat mental health issues in the city of Buffalo.",
@@ -35,7 +35,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="STREAM" 
+        proj="STREAM"
         venue="Department of ISE"
         desc={[
           "We built a <b>digital twin</b> of a 3D printer. This twin mirrors the physical state of a real printer and allows the printer to be controlled remotely.",
@@ -56,10 +56,10 @@ export default function Projects() {
         link="https://stream-digitaltwin.com"
         media={{ src: "https://www.youtube.com/embed/6j6RJ27Ho7A", alt: "Demo video of STREAM" }}
       />
-      {/* TODO: SLI Screener */}
+      {/* TODO: Vocal Lens */}
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Magic Painting Board" 
+        proj="Magic Painting Board"
         venue="Department of CSE"
         desc={[
           "We created a web application that <b>transforms sketches</b> into images using <b>deep learning</b>.",
@@ -78,7 +78,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Manufacturing Metaverse" 
+        proj="Manufacturing Metaverse"
         venue="Department of ISE"
         desc={[
           "I built an instructional AR application for <b>3D printer troubleshooting</b>.",
@@ -96,7 +96,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Pokémix"
+        proj="Pokemix"
         venue="Personal Project"
         desc={[
           "I created a <b>deep learning model</b> for interpolating 2D sprites.",
@@ -116,7 +116,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="COVID Visualization" 
+        proj="COVID Visualization"
         venue="Personal Project"
         desc={[
           "I created a visualization of the New York Times <b>COVID-19 US dataset</b>.",
@@ -136,7 +136,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="RPS15" 
+        proj="RPS15"
         venue="CSE312"
         desc={[
           "We created a web application of the game <b>\"Rock, Paper, Scissors\"</b> with 15 moves.",
@@ -156,7 +156,7 @@ export default function Projects() {
       />
       <ProjectContainer
         innerRef={useAppear()}
-        proj="Ho-Ho-Ho Down" 
+        proj="Ho-Ho-Ho Down"
         venue="Personal Project"
         desc={[
           "I created a winter-themed <b>2D platformer game</b>.",

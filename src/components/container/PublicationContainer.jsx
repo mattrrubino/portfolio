@@ -2,11 +2,11 @@ import { PropTypes } from "prop-types";
 import Container from "./Container";
 import useSmartNavigate from "../../hooks/useSmartNavigate";
 
-export default function PublicationContainer({ innerRef, title, location, type, authors, abstract, link }) {
+export default function PublicationContainer({ id, innerRef, title, location, type, authors, abstract, link }) {
   const navigate = useSmartNavigate();
 
   return (
-    <Container>
+    <Container id={id}>
       <div ref={innerRef} className="h-full flex flex-col p-4 sm:p-8 text-2xl md:text-4xl lg:text-5xl">
         <h1 className="font-bold leading-none">{title}</h1>
         <div className="flex justify-between items-baseline">
@@ -32,6 +32,7 @@ export default function PublicationContainer({ innerRef, title, location, type, 
 }
 
 PublicationContainer.propTypes = {
+  id: PropTypes.string,
   innerRef: PropTypes.object,
   title: PropTypes.string.isRequired,
   location: PropTypes.string,
