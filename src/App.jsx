@@ -24,7 +24,8 @@ export default function App() {
   // are added to the DOM at runtime. This fixes the issue.
   useEffect(() => {
     if (location.hash) {
-      const el = document.querySelector(location.hash);
+      const selector = location.hash.split("?")[0];
+      const el = document.querySelector(selector);
       el?.scrollIntoView({ behavior: "smooth" });
     }
   }, []);
