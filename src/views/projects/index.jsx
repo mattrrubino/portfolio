@@ -14,7 +14,7 @@ export default function Projects() {
       <ProjectContainer
         innerRef={useAppear()}
         proj="Mellowing Mind"
-        venue="School of Nursing"
+        venue="UB School of Nursing"
         desc={[
           "We created a <b>mindfulness practice app</b> to help treat mental health issues in the city of Buffalo.",
           "I implemented the app software using <b>Dart</b>, <b>Flutter</b>, and <b>Firebase</b>.",
@@ -36,7 +36,7 @@ export default function Projects() {
       <ProjectContainer
         innerRef={useAppear()}
         proj="STREAM"
-        venue="Department of ISE"
+        venue="UB Dept. of ISE"
         desc={[
           "We built a <b>digital twin</b> of a 3D printer. This twin mirrors the physical state of a real printer and allows the printer to be controlled remotely.",
           "I implemented the backend software in <b>Python</b>, deployed machine learning models using <b>ONNX</b>, and hosted the web application using <b>AWS</b> and <b>NGINX</b>.",
@@ -56,11 +56,50 @@ export default function Projects() {
         link="https://stream-digitaltwin.com"
         media={{ src: "https://www.youtube.com/embed/6j6RJ27Ho7A", alt: "Demo video of STREAM" }}
       />
-      {/* TODO: Vocal Lens */}
+      <ProjectContainer
+        innerRef={useAppear()}
+        proj="Vocal Lens"
+        venue="UB Dept. of CDS"
+        desc={[
+          "We created a <b>speech and language impairment screener</b> for children using <b>machine learning</b>.",
+          "I trained and deployed machine learning models using <b>Scikit-Learn</b> and <b>HuggingFace</b>.",
+          "I developed backend software for model serving using <b>FastAPI</b> and <b>Uvicorn</b>.",
+        ]}
+        tech={[
+          { src: "https://icon.icepanel.io/Technology/svg/Python.svg", alt: "Python Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/scikit-learn.svg", alt: "Scikit-learn Icon" },
+          { src: "https://huggingface.co/datasets/huggingface/brand-assets/resolve/main/hf-logo.svg", alt: "HuggingFace Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/PyTorch.svg", alt: "PyTorch Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/FastAPI.svg", alt: "FastAPI Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/React.svg", alt: "React Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/CSS3.svg", alt: "CSS Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Git.svg", alt: "Git Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/GitHub.svg", alt: "GitHub Icon" },
+        ]}
+        media={{ src: "/vocallens.png", alt: "Screenshot from Vocal Lens" }}
+      />
+      <ProjectContainer
+        innerRef={useAppear()}
+        proj="Manufacturing Metaverse"
+        venue="UB Dept. of ISE"
+        desc={[
+          "I built an instructional AR application for <b>3D printer troubleshooting</b>.",
+          "I wrote the software in <b>C#</b>, using the game engine <b>Unity</b> with the <b>Oculus SDK</b>.",
+          "I added support for <b>realtime interaction</b> with a physical 3D printer using WebSockets.",
+        ]}
+        tech={[
+          { src: "https://icon.icepanel.io/Technology/svg/Unity.svg", alt: "Unity Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg", alt: "C# Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/.NET.svg", alt: ".NET Icon" },
+          { src: "https://www.svgrepo.com/show/306497/oculus.svg", alt: "Oculus Icon" },
+          { src: "https://icon.icepanel.io/Technology/svg/Blender.svg", alt: "Blender Icon" },
+        ]}
+        media={{ src: "https://www.youtube.com/embed/_icf84A7Ce4", alt: "Demo video of Manufacturing Metaverse" }}
+      />
       <ProjectContainer
         innerRef={useAppear()}
         proj="Magic Painting Board"
-        venue="Department of CSE"
+        venue="UB Dept. of CSE"
         desc={[
           "We created a web application that <b>transforms sketches</b> into images using <b>deep learning</b>.",
           "I trained the pix2pix deep learning model using <b>PyTorch</b> and created the user interface with <b>React</b>.",
@@ -75,24 +114,6 @@ export default function Projects() {
           { src: "https://icon.icepanel.io/Technology/svg/CSS3.svg", alt: "CSS Icon" },
         ]}
         media={{ src: "https://www.youtube.com/embed/8U6y9d0Ua3w", alt: "Demo video of Magic Painting Board" }}
-      />
-      <ProjectContainer
-        innerRef={useAppear()}
-        proj="Manufacturing Metaverse"
-        venue="Department of ISE"
-        desc={[
-          "I built an instructional AR application for <b>3D printer troubleshooting</b>.",
-          "I wrote the software in <b>C#</b>, using the game engine <b>Unity</b> with the <b>Oculus SDK</b>.",
-          "I added support for <b>realtime interaction</b> with a physical 3D printer using WebSockets.",
-        ]}
-        tech={[
-          { src: "https://icon.icepanel.io/Technology/svg/Unity.svg", alt: "Unity Icon" },
-          { src: "https://icon.icepanel.io/Technology/svg/C%23-%28CSharp%29.svg", alt: "C# Icon" },
-          { src: "https://icon.icepanel.io/Technology/svg/.NET.svg", alt: ".NET Icon" },
-          { src: "https://www.svgrepo.com/show/306497/oculus.svg", alt: "Oculus Icon" },
-          { src: "https://icon.icepanel.io/Technology/svg/Blender.svg", alt: "Blender Icon" },
-        ]}
-        media={{ src: "https://www.youtube.com/embed/_icf84A7Ce4", alt: "Demo video of Manufacturing Metaverse" }}
       />
       <ProjectContainer
         innerRef={useAppear()}
@@ -137,7 +158,7 @@ export default function Projects() {
       <ProjectContainer
         innerRef={useAppear()}
         proj="RPS15"
-        venue="CSE312"
+        venue="UB CSE312"
         desc={[
           "We created a web application of the game <b>\"Rock, Paper, Scissors\"</b> with 15 moves.",
           "I implemented the backend software using <b>Python</b>, <b>FastAPI</b>, and <b>WebSockets</b>.",

@@ -14,7 +14,7 @@ export default function Publications() {
       <PublicationContainer
         id="mdd"
         innerRef={useAppear()}
-        title="A Mispronunciation-Based Voice-Omics Representation Framework for Screening Speech and Language Impairments in Children"
+        title="A Mispronunciation-Based Voice-Omics Representation Framework for Screening Specific Language Impairments in Children"
         authors={[
           "Wei Bo",
           "Matthew Rubino",
@@ -23,20 +23,16 @@ export default function Publications() {
         location="IEEE ICHI 2024"
         type="Conference Paper"
         abstract={`
-          This paper introduces an innovative end-to-end (E2E) framework for screening
-          speech and language impairment (SLI) in children, centralizing phoneme-level
-          mispronunciation (PLM) detection to enhance the precision and reliability. We
-          have developed a unique voice-omics representation that translates PLM
-          predictions into symbolic sequences, yielding significant phenotyping biomarkers
-          that provide objective and quantifiable assessments of children’s speech patterns.
-          Through meticulous fine-tuning of the Connectionist Temporal Classification (CTC)
-          model on the L2-Arctic dataset and rigorous five-fold cross-validation, our E2E
-          models have demonstrated remarkable accuracy, with Area Under the Curve (AUC)
-          values exceeding 0.71 and a notable recall rate of up to 71.5% on the CHILDES
-          dataset. Our approach signifies a substantial advancement in SLI screening,
-          leveraging cutting-edge technology to capture the complexities of spontaneous
-          speech in children.
+          This paper introduces an innovative end-to-end (E2E) framework for screening Specific Language Impairment (SLI) in children,
+          centralizing phoneme-level mispronunciation (PLM) detection to enhance the precision and reliability. We have developed a
+          unique voice-omics representation that translates PLM predictions into symbolic sequences, yielding significant phenotyping
+          biomarkers that provide objective and quantifiable assessments of children's speech patterns. Through meticulous fine-tuning
+          of the Connectionist Temporal Classification (CTC) model on the L2-ARCTIC dataset and rigorous five-fold cross-validation,
+          our E2E models have demonstrated remarkable accuracy, with Area Under the Curve (AUC) values exceeding 0.71 and a notable
+          recall rate of up to 71.5 % on the CHILDES dataset. Our approach signifies a substantial advancement in SLI screening,
+          leveraging cutting-edge technology to capture the complexities of spontaneous speech in children.
         `}
+        link="https://www.computer.org/csdl/proceedings-article/ichi/2024/837300a294/1ZCgZ5NyLf2"
       />
       <PublicationContainer
         id="twin"
